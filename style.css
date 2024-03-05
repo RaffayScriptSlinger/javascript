@@ -8,10 +8,21 @@ button{
     width: 100px;
     background-color: yellow;
     color: green;
+    transform: skew(8deg);
+}
+button:hover{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(255, 255, 187);
+    color: red;
+    transition: 0.5s;
+    
 }
 button a{
-    color: rgb(226, 0, 0);
+    color: rgb(0, 0, 0);
     font-weight: bold;
+    text-decoration: none;
+    background-color: yellowgreen;
  
 }
 #maindiv{
