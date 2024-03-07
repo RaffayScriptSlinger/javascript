@@ -73,8 +73,11 @@ var Time = +prompt("Enter Time in 24 hours clock  i will convert into 12 hours")
     if (inputPassword === correctPassword){
         alert("Welcome Correct Password");
     }
+    else if(inputPassword == ""){
+        alert("please Input Your Password")
+    }
     else{
-        alert("Wrong Answer Try Again");
+        alert("Wrong Password Try Again");
     }
 
     
@@ -89,8 +92,12 @@ var Time = +prompt("Enter Time in 24 hours clock  i will convert into 12 hours")
  }
  else if ( secoundintegar >   firstintegar) {
     alert( "secoundintegar is greater");
+  
+    }
 
- }
+    else if(firstintegar == secoundintegar){
+        alert("BOTH Integar are Equal")
+    }
 
  // Question Number (four)
 
@@ -114,8 +121,24 @@ var Time = +prompt("Enter Time in 24 hours clock  i will convert into 12 hours")
     console.log("it is not a vowel")
  }
  
- // Question Number will as soon as possible
+ // Question Number one
 
- let n = 5
- n = n + 4
- console.log(n)
+ function checkCharacterType(char) {
+    if (/[0-9]/.test(char)) {
+        console.log(char + " is a number.");
+    } else if ([A-Z].test(char)) {
+        console.log(char + " is an uppercase letter.");
+    } else if ([a-z].test(char)) {
+        console.log(char + " is a lowercase letter.");
+    } else {
+        console.log(char + " is not a number, uppercase letter, or lowercase letter.");
+    }
+}
+
+// Taking input from the user
+var userInput = prompt("Enter a character: ");
+
+// Checking the type of the entered character
+checkCharacterType(userInput);
+
+
