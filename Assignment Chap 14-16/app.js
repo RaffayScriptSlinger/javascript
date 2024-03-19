@@ -66,3 +66,40 @@ let colorTwo = prompt("what color You wants to add to the End");
 color.push(colorTwo);
 
 console.log(color);
+
+// Question Number 11
+
+let cities = [
+    "Karachi" , "Lahore"  , "Multan" , "Islamabad" , "Peshawar"
+]
+
+document.write( 
+ ` Cities List : `  + `<br>` +  cities  + "<br>"
+)
+
+selectedCities = (cities.splice(2, 2 ) )
+
+
+document.write(  "Selected Cities " + "<br>"+ selectedCities + "<br>" );
+
+document.write("Array" + "<br>");
+
+let arr = [
+    "This" , "Is" , "My" , "Cat"
+]
+
+document.write(arr + "<br>");
+
+document.write("String" + "<br>")
+
+let singleString = arr.join(` `)
+
+document.write(singleString + "<br>");
+
+console.log(singleString);
+
+
+
+
+
+
