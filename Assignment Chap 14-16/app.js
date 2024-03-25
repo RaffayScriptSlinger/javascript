@@ -91,15 +91,35 @@ let arr = [
 document.write(arr + "<br>");
 
 document.write("String" + "<br>")
-
+                           
 let singleString = arr.join(` `)
 
-document.write(singleString + "<br>");
+document.write(singleString + "<br> <br>");
 
 console.log(singleString);
 
+// Question  Number 15
+document.write("Question Number 15 " + " <br> <br> ")
 
 
+let mobile = ["Tecno" , "Motrolla" , "Samsung" , "Nokia" , "Haier" , "Apple"]
+
+document.write("<select>")
+for(i = 0 ; i < mobile.length ; i++){
+document.write(`"<option value = ${mobile}>  ${mobile[i]} </option>"`)
+}
+
+document.write("</select>")
+
+// Some Random Practice
+
+// let countries = ["pakistan" , "Australia" , "Bangladesh" , "Uk"];
+
+// document.write("<select>");
 
 
+// for(i = 0 ; i < countries.length ; i++ ){
+//     document.write(`" <option value = ${countries}>  ${countries[i]}   </option> " ` );
+// }
+// document.write("</select>")
 
