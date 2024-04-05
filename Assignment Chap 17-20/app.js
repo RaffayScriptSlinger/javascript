@@ -167,3 +167,6 @@ document.write("<br>")
 
 document.write("<br>")
 document.write("Remaining Answer Are Done In Console");
+
+
+
